@@ -1,5 +1,5 @@
 import React from "react";
-import SearchName from "../SearchName/SearchName.js";
+import SearchName from "../SearchName.js";
 
 function Nav() {
   return (

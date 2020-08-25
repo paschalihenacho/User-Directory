@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import DataTable from "../DataTable/DataTable";
-import Nav from "../Nav/Nav";
-import API from "../../utils/API";
-import "../styles/DataArea.css";
-import DataAreaContext from "../../utils/DataAreaContext";
+import DataTable from "../DataTables";
+import Nav from "../Nav";
+import API from "../utils/API";
+import "../DataArea.css";
+import DataAreaContext from "../utils/DataAreaContext";
 
 const DataArea = () => {
   const [developerState, setDeveloperState] = useState({
