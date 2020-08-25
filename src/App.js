@@ -1,8 +1,16 @@
 import React from "react";
-import Form from "./components/Form";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
-  return <Form />;
+  return (
+  <div className="App">
+    <Wrapper>
+      <Header/>
+      <Main/>
+    </Wrapper>
+  </div>);
 }
 
 export default App;
