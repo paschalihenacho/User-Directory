@@ -5,7 +5,6 @@ import Main from "./components/Main";
 
 function App() {
 
-  //document.body.style = 'background: red;';
   return (
   <div className="App">
     <Wrapper>
