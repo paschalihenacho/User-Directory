@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DataTable from "../DataTables";
+import DataTable from "../DataTable";
 import Nav from "../Nav";
 import API from "../utils/API";
 import "../DataArea.css";
