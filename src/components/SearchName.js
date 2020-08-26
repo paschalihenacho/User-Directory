@@ -8,18 +8,18 @@ const SearchName = () => {
   return (
     <div className="searchbox">
       <div className="input-group">
-          <div className="input-group-prepend">
-            <span className="input-group-text" id="">
-              Search
-            </span>
-          </div>
           <input
           className="form-control mr-sm-2"
           type="search"
-          placeholder="name"
+          placeholder="enter a name to search"
           aria-label="Search"
           onChange={e => context.handleSearchChange(e)}
         />
+        <div className="input-group-prepend">
+            <span className="input-group-text" id="">
+              Search Name
+            </span>
+          </div>
         </div>
     </div>
   );

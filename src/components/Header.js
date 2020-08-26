@@ -4,8 +4,8 @@ import "./Header.css";
 function Header () {
     return (
       <div className="header">
-        <h1>Employee Directory</h1>
-        <p>Click to Filter  or Search.</p>
+        <h1>Employees Record</h1>
+        <p>Click to Filter  or Search by name.</p>
       </div>
     )
   }
