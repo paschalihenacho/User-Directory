@@ -11,15 +11,10 @@ const SearchName = () => {
           <input
           className="form-control mr-sm-2"
           type="search"
-          placeholder="enter a name to search"
+          placeholder="enter a name"
           aria-label="Search"
           onChange={e => context.handleSearchChange(e)}
         />
-        <div className="input-group-prepend">
-            <span className="input-group-text" id="">
-              Search Name
-            </span>
-          </div>
         </div>
     </div>
   );
